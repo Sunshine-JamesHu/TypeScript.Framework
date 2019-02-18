@@ -1,0 +1,20 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "本库是上海的所有前端项目的基础库，需要持续更新的。 项目采用TS构建;",
+  "main": "build/EshineFramework.js",
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "tsc && node build/EshineFramework.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.downtown8.cn/tingran.huSH/EshineSh.Framework.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
